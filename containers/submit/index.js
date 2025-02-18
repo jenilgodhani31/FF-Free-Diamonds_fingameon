@@ -13,7 +13,7 @@ function Submit() {
 
           <div className="mt-5">
             <div class="">
-              <input type="text" class="w-full p-2 rounded-[42px] pl-10" placeholder="Enter User Details" id="leadingIconDefault" />
+              <input type="text" class="w-full p-2 rounded-[42px] pl-10" placeholder="Enter User Id" id="leadingIconDefault" />
               <span class="input-group-text absolute left-9 mt-[9px] top-1/2 transform -translate-y-1/2">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user text-base-content/80">
