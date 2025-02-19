@@ -1,12 +1,18 @@
+import Ads from '@components/Ads';
 import Layout from '@components/Layout';
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Diamonds() {
     const diamondOptions = [100, 310, 520, 1060, 2180, 5600];
     return (
         <Layout>
-            <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px]">
-
+            <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px] pb-10">
+                <div className='pb-10'>
+                    <Ads
+                        data-ad-slot="3211837376"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true" />
+                </div>
                 <div className="grid grid-cols-2 justify-between mt-6 gap-x-9 gap-y-6">
                     {diamondOptions.map((amount) => (
                         <div key={amount}>

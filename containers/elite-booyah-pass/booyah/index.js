@@ -1,12 +1,19 @@
+import Ads from '@components/Ads'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Booyah() {
   return (
     <Layout>
 
       <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px] pb-10">
+      <div className='pb-10'>
+          <Ads
+            data-ad-slot="3211837376"
+            data-ad-format="auto"
+            data-full-width-responsive="true" />
+        </div>
         {gameData.booyah.map((booyah) => (
           <div
             key={booyah.id}

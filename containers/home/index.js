@@ -26,7 +26,10 @@ function Home() {
         />
       </div>
 
-
+      <Ads
+        data-ad-slot="3211837376"
+        data-ad-format="auto"
+        data-full-width-responsive="true" />
 
       <div className="flex items-center justify-center px-5  cursor-pointer pt-10">
         <a href="/tools">
@@ -52,7 +55,7 @@ function Home() {
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
         >
-          <Ads display={true} data-ad-slot="3246857708" />
+          <Ads display={true} data-ad-slot="5279181955" />
         </Modal>
       )}
 

@@ -1,7 +1,8 @@
+import Ads from '@components/Ads'
 import Layout from '@components/Layout'
 import gameData from 'data/gameData'
 import { useRouter } from 'next/router'
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Success() {
   const route = useRouter()
@@ -14,7 +15,13 @@ function Success() {
   return (
     <Layout>
 
-      <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px]">
+      <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px] pb-10">
+        <div className='pb-10'>
+          <Ads
+            data-ad-slot="3211837376"
+            data-ad-format="auto"
+            data-full-width-responsive="true" />
+        </div>
         <div className="flex flex-col gap-6 items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77" fill="none">
             <g filter="url(#filter0_d)">
