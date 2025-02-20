@@ -18,11 +18,8 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('../public/resources/bg.png');
-  background-attachment: fixed; /* bg-fixed */
-  background-repeat: no-repeat; /* bg-no-repeat */
-  background-size: cover; /* bg-cover */
-  background-position: bottom; /* bg-bottom */
+  background-color:   #1c0a23;
+ 
 
   /* Mobile-first responsive design */
   width: 100%; /* Default for mobile */

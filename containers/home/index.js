@@ -55,7 +55,10 @@ function Home() {
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
         >
-          <Ads display={true} data-ad-slot="5279181955" />
+          <div className=" md:mt-[18px] mt-[20px]">
+
+            <Ads display={true} data-ad-slot="5279181955" />
+          </div>
         </Modal>
       )}
 
