@@ -22,6 +22,10 @@ function Characters() {
             data-ad-format="auto"
             data-full-width-responsive="true" />
         </div>
+
+        <div>Free Fire Characters: Unique Abilities for Strategic Advantage</div>
+        <div>In Free Fire, characters play a crucial role in determining a player’s success on the battlefield. Each character comes with unique abilities that offer different strategic advantages, allowing players to choose the one that best complements their playstyle. These abilities range from enhancing movement speed to improving healing and offering defensive benefits, adding a tactical layer to the game.</div>
+
         <div className="grid grid-cols-2 gap-4">
           {gameData.characters.map((character) => (
             <div key={character.id} className="flex cursor-pointer justify-center relative" onClick={() => goToCharacterDetails(character.name, "characters")}>
@@ -42,6 +46,22 @@ function Characters() {
           ))}
         </div>
 
+        <div className='text-xl font-bold'>1. DJ Alok</div>
+        <div>DJ Alok is a fan favorite due to his ability, Drop the Beat. This skill creates a healing aura that restores health and boosts movement speed for teammates. His supportive role is invaluable in team fights, making him essential for players aiming to rank up.</div>
+
+        <div className='text-xl font-bold'>2. Chrono</div>
+        <div>Chrono, inspired by football star Cristiano Ronaldo, brings a unique blend of speed and protection. His active ability, Time Turner, creates a shield that blocks damage while enhancing movement speed. This makes him ideal for aggressive players looking to dominate their opponents and secure key eliminations.</div>
+
+        <Ads
+          data-ad-slot="3211837376"
+          data-ad-format="auto"
+          data-full-width-responsive="true" />
+
+        <div className='text-xl font-bold'>3. K</div>
+        <div>K is another versatile character with the ability called Master of All. He can switch between two modes—one that enhances healing and another that boosts EP recovery. K is perfect for players who want to adapt their strategy mid-game, offering a tactical edge in various scenarios.</div>
+
+        <div className='text-xl font-bold'>4. Skyler</div>
+        <div>Skyler's ability, Riptide Rhythm, allows him to unleash a sonic wave that damages enemies and destroys gloo walls. This makes him a powerful choice for players who prefer aggressive tactics and want to break through enemy defenses.</div>
 
       </div>
     </Layout>

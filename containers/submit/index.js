@@ -23,6 +23,23 @@ function Submit() {
             data-ad-format="auto"
             data-full-width-responsive="true" />
         </div>
+
+        <div className='text-xl font-bold'>Enter Details to Claim Reward  💎</div>
+
+        <div className="flex items-center justify-center  pt-[8px] cursor-pointer">
+          <a href="/free-diamonds-coin">
+            <img src="/resources/imageTwo.jpg" className="w-full" />
+          </a>
+        </div>
+
+        <p className='pt-5 '><strong className="text-[20px] md:text-[18px]">Step 1 : </strong> Click the above button to download the App.
+        </p>
+        <p className='pt-5 '><strong className="text-[20px]  md:text-[18px]">Step 2 : </strong> Open the App and use it for 5 Days.
+        </p>
+        <p className='pt-5 '><strong className="text-[20px]  md:text-[18px]">Step 3 : </strong>  After the Completion of the 5th Day You will get redemption.
+        </p>
+        <p className='pt-5 '><strong className="text-[20px]  md:text-[18px]">Step 4 : </strong> You just have to copy and paste it to our site for redemption And you get 5000 Diamond 💎 in your Free Fire Account.
+        </p>
         <div className="border-y border-white/15 backdrop-blur pt-6 pb-3 px-6 mt-3 mb-6 relative overflow-hidden">
           <div className="text-white text-base font-semibold pe-3">
             Enter your <span className="text-[#8574E0]">Username</span> or <br />{' '}
@@ -32,13 +49,13 @@ function Submit() {
             <div className="relative">
               <input
                 type="text"
-                className="w-full p-2 rounded-[42px] pl-10 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full text-black p-2 rounded-[42px] pl-10 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter User Id"
                 value={userId}
                 onChange={(e) => setUserId(e.target.value)}
                 required
               />
-              <span className="absolute left-3 top-1/2 transform -translate-y-1/2">
+              <span className="absolute text-black left-3 top-1/2 transform -translate-y-1/2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"

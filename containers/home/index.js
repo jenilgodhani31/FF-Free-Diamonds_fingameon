@@ -29,7 +29,7 @@ function Home() {
         data-ad-slot="3211837376"
         data-ad-format="auto"
         data-full-width-responsive="true" />
-      <div className="text-center   font-bold text-xl text-white">Diamonds, Skins and Free Fire Pass</div>
+      <div className="font-bold text-xl text-white">Diamonds, Skins and Free Fire Pass</div>
       <div className="">Here are the details on how to acquire Diamonds and other rewards in Free Fire. Read on to explore the complete methods.</div>
       <div>If you have any questions, make sure you read to the end to get all the information you need! Imagine yourself dreaming of amassing a treasure trove of diamonds in free fire.</div>
       <div>Ready to unlock stunning skins, exclusive characters and powerful weapons. We recognize how electrifying and rewarding it can be to enhance your gaming experience with these valuable resources.</div>
@@ -66,7 +66,7 @@ function Home() {
           <img src="/resources/unnamed.png" className="w-full" />
         </a>
       </div>
-      <div className="text-center   font-bold text-xl text-white">Methods to Earn Diamonds in Free Fire</div>
+      <div className="font-bold text-xl text-white">Methods to Earn Diamonds in Free Fire</div>
       <div className="">There are methods for acquiring diamonds and skins in Free Fire, which are divided into two types: internal and external. Internal methods use tools provided by the game itself, while external methods generally reward players with codes redeemable in the game.</div>
       <div className=' '><strong className="text-[20px] md:text-[18px]">Seasonal events : </strong> Take advantage of the events offered by the developer on a regular basis. Among the unique rewards of skins and emotes, there's also the chance to win diamonds! </div>
       <div className=' '><strong className="text-[20px] md:text-[18px]">Redemption codes : </strong> Codes are the best way to get diamonds and skins in Free Fire. Knowing how and where to get these codes is key to maximizing your winnings! </div>

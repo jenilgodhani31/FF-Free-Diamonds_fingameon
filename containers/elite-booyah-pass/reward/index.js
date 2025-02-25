@@ -8,12 +8,14 @@ function Reward() {
     <Layout>
 
       <div className="flex flex-col gap-5 mx-auto h-max ls:w-[360px] pt-[100px] pb-10">
-      <div className='pb-10'>
+        <div className='pb-10'>
           <Ads
             data-ad-slot="3211837376"
             data-ad-format="auto"
             data-full-width-responsive="true" />
         </div>
+        <div className='text-xl font-bold'>Maximizing Free Fire Rewards: Boost Your Gameplay and Climb the Ranks</div>
+        <div>In Free Fire, rewards play a crucial role in enhancing your gaming experience and improving your performance on the battlefield. From in-game currency to exclusive skins, understanding how to maximize these rewards can significantly impact your ability to climb the ranks and achieve victory.</div>
         {gameData.rewards.map((rewards) => (
           <div
             key={rewards.id}
@@ -34,8 +36,19 @@ function Reward() {
           </div>
         ))}
 
+        <div className='text-xl font-bold'>1. Daily and Weekly Missions</div>
+        <div>One of the best ways to earn rewards in Free Fire is by completing daily and weekly missions. These challenges range from eliminating a specific number of enemies to surviving for a set duration. By actively participating in these missions, players can accumulate valuable resources like diamonds, gold, and unique items. Completing missions not only boosts your inventory but also helps refine your skills, making it easier to secure wins and rank up.</div>
 
+        <div className='text-xl font-bold'>2. Events and Promotions</div>
+        <div>2. Events and Promotions.</div>
 
+        <Ads
+          data-ad-slot="3211837376"
+          data-ad-format="auto"
+          data-full-width-responsive="true" />
+
+        <div className='text-xl font-bold'>3. Elite Pass and Booyah Pass</div>
+        <div>Investing in the Elite Pass or Booyah Pass can further amplify your rewards. The Elite Pass offers exclusive seasonal rewards, while the Booyah Pass allows you to earn valuable items simply by playing the game. Both passes encourage active gameplay and reward dedication, making them worthwhile investments for players focused on improving their ranks.</div>
       </div>
     </Layout>
   )

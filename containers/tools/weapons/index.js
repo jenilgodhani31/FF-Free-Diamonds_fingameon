@@ -22,6 +22,9 @@ function Weapons() {
                         data-ad-format="auto"
                         data-full-width-responsive="true" />
                 </div>
+                <div className='text-xl font-bold'>Understanding Free Fire Weapon Types: Elevate Your Gameplay</div>
+                <div>In Free Fire, weapon selection plays a vital role in determining your success on the battlefield. With various types of weapons available, each serving different purposes, understanding their characteristics can significantly enhance your gameplay and help you climb the ranks. Here’s a closer look at the primary weapon types in Free Fire and their advantages.</div>
+
                 <div className="flex flex-col gap-4">
                     {gameData.weapons.map((weapon) => (
                         <div
@@ -39,6 +42,25 @@ function Weapons() {
                     ))}
 
                 </div>
+                
+                <div className='text-xl font-bold'>1. Assault Rifles</div>
+                <div>Assault rifles are versatile and well-rounded weapons, perfect for various combat scenarios. The M4A1 and AK47 are popular choices among players. The M4A1 offers low recoil and decent fire rate, making it ideal for both medium and close-range engagements. In contrast, the AK47 delivers high damage per shot, making it lethal in skilled hands. Mastering assault rifles can greatly improve your chances of securing eliminations and advancing in rank.</div>
+
+                <div className='text-xl font-bold'>2. Submachine Guns (SMGs)</div>
+                <div>Submachine guns, such as the MP40 and UMP, excel in close-quarters combat. Their high rate of fire and manageable recoil make them perfect for aggressive players who prefer rushing enemies. The MP40, in particular, is favored for its rapid-fire capability, allowing players to overwhelm opponents quickly. Incorporating SMGs into your arsenal is essential for dominating close-range encounters.</div>
+
+                <Ads
+                    data-ad-slot="3211837376"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true" />
+
+                <div className='text-xl font-bold'>3. Shotguns</div>
+                <div>Shotguns are devastating at close range, capable of delivering high damage with a single shot. Weapons like the M1014 and SPAS12 are effective for players who enjoy close-quarters combat. Their ability to eliminate enemies quickly makes them a great choice for aggressive strategies, particularly in tight spaces.</div>
+
+                <div className='text-xl font-bold'>4. Sniper Rifles</div>
+                <div>For those who prefer long-range engagements, sniper rifles like the AWM and Kar98k are indispensable. They provide high damage and precision, allowing players to take out enemies from a distance. Mastering sniping can give you a significant advantage in competitive play, especially during late-game situations.</div>
+
+
 
 
             </div>
