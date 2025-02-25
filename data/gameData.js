@@ -11,7 +11,7 @@ const gameData = {
     { id: 9, name: "santino", url: "/resources/characters/santino.png" },
     { id: 10, name: "luna", url: "/resources/characters/luna.png" },
     { id: 12, name: "tatsuya", url: "/resources/characters/tatsuya.png" },
-    { id: 13, name: "a-patroa", url: "/resources/characters/a-patroa.png" },
+    { id: 13, name: "a-patroa", url: "/resources/characters/A-patroa.png" },
     { id: 14, name: "iris", url: "/resources/characters/iris.png" },
     { id: 15, name: "j.biebs", url: "/resources/characters/jbiebs.png" },
     { id: 16, name: "homer", url: "/resources/characters/homer.png" },
